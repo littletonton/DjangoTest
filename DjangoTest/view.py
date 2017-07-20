@@ -9,4 +9,5 @@ def hello(request):
     context['isshow'] = False
     context['hello'] = "Hello World!"
     context['bye'] = "Good Bye!"
+    context['athletes'] = [{'name':'Ton'},{'name':'Tom'}]
     return render(request,"hello.html",context)
