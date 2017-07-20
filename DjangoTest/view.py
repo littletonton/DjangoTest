@@ -10,4 +10,4 @@ def hello(request):
     context['hello'] = "Hello World!"
     context['bye'] = "Good Bye!"
     context['athletes'] = [{'name':'Ton'},{'name':'Tom'}]
-    return render(request,"hello.html",context)
+    return render(request, "hello.html", context)
